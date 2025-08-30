@@ -1,4 +1,4 @@
-# Weather McP Server
+# Weather MCP Server
 
 This project is a server that provides weather information using Model Context Protocol (MCP).
 
