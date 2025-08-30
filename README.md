@@ -1,46 +1,46 @@
-# Weather MCP Server
+# Weather McP Server
 
-Bu proje, Model Context Protocol (MCP) kullanarak hava durumu bilgilerini sağlayan bir sunucudur.
+This project is a server that provides weather information using Model Context Protocol (MCP).
 
-## Kurulum
+## Setup
 
-1. Bağımlılıkları yükleyin:
-```bash
-npm install
-```
+1. Upload addictions:
+`` `Bash
+NPM INSTALL
+`` `
 
-2. Environment variables ayarlayın:
-```bash
+2. Set Environment Variables:
+`` `Bash
 cp env.example .env
-```
+`` `
 
-`.env` dosyasını düzenleyerek OpenWeatherMap API anahtarınızı ekleyin:
-```
-WEATHER_API_BASE_URL=https://api.openweathermap.org/data/2.5/weather
-WEATHER_API_KEY=your_openweathermap_api_key_here
-```
+Add your OpenWeathermap API key by editing the `.env` file:
+`` `
+Weather_apı_base_url = https: //api.openweathermap.org/data/2.5/weather
+Weather_apı_key = your_openweathermap_api_key_here
+`` `
 
-## Kullanım
+## Usage
 
-1. Projeyi derleyin:
-```bash
-npm run build
-```
+Mix the 1st Project:
+`` `Bash
+NPM RUN Build
+`` `
 
-2. Sunucuyu başlatın:
-```bash
-npm start
-```
+Start the 2nd Server:
+`` `Bash
+NPM Start
+`` `
 
-## API Anahtarı Alma
+## Taking API key
 
-OpenWeatherMap API anahtarı almak için:
-1. https://openweathermap.org/ adresine gidin
-2. Ücretsiz hesap oluşturun
-3. API Keys bölümünden anahtarınızı alın
+To get the OpenWeathermap API key:
+1. Go to https://openweathermap.org/
+2. Create free account
+Get your key from the 3rd API Keys section
 
-## Desteklenen Özellikler
+## supported features
 
-- `get-weather`: Belirtilen şehir için anlık sıcaklık bilgisi
-- Türkçe dil desteği
-- Celsius sıcaklık birimi
+- `Get-Weather`: instant temperature information for the specified city
+- Turkish language support
+- Celsius Temperature Unit
