@@ -21,8 +21,7 @@ Weather_apı_key = your_openweathermap_api_key_here
 `` `
 
 ## Usage
-
-Mix the 1st Project:
+ 1st Project:
 `` `Bash
 NPM RUN Build
 `` `
